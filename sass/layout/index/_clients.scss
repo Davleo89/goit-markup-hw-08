@@ -1,0 +1,33 @@
+.client {
+  padding-top: 59px;
+  padding-bottom: 151px;
+}
+
+.svg-client-container{
+  display: flex;
+  justify-content: center;
+
+}
+
+.link-client {
+  padding: 14px 32px;
+  fill: #afb1b8;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: var(--color-blue);
+    fill: var(--color-blue);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 900px){
+  
+  .svg-client-container{
+    row-gap: 10px;
+    justify-content: center;
+  }
+}
+

@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  background-color: var(--white-color);
+  margin: 0;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+}
+
+.list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+img {
+  
+  max-width: 100%;
+  height: auto;
+}
+
+.link,
+.link-contact,
+.box-img,
+.list,
+.nav-list,
+.logo,
+.list-portfolio,
+.img-list,
+.list-btn,
+.list-link,
+.svg-client,
+.svg-footer,
+.link-svg-team,
+.icon-client,
+.link-card {
+  text-decoration: none;
+  list-style: none;
+  color: var(--text-color);
+  padding: 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+header {
+  border-color: var(--color-blue);
+}
+
+.current {
+  color: var(--color-blue);
+}

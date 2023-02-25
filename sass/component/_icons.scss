@@ -1,0 +1,160 @@
+.svg-info {
+  fill: var(--color-paragraph);
+  margin-right: 10px;
+}
+
+.x {
+  width: 11px;
+  height: 11px;
+}
+
+.svg-people {
+  margin-top: 11px;
+  margin-left: 8px;
+}
+
+.svg-label {
+  position: absolute;
+  top: 13px;
+  left: 7px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--color-button-menu);
+}
+
+.icon {
+  fill: var(--color-svg);
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.svg-container {
+  border-radius: 50%;
+  margin-right: 10px;
+  fill: var(--color-social);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:last-child {
+    margin-right: 0;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &:hover,
+  &:focus {
+    fill: var(--white-color);
+    background-color: var(--color-blue);
+    cursor: pointer;
+  }
+}
+
+.link-svg-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  fill: #afb1b8;
+  padding: 12px;
+
+  &:hover,
+  &:focus {
+    fill: var(--white-color);
+    background: var(--color-blue);
+  }
+}
+
+.link-svg:hover,
+.link-svg:focus {
+  fill: var(--white-color);
+  background: var(--color-blue);
+}
+
+.svg-client-container {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.svg-client {
+  border: 1px solid #afb1b8;
+  display: flex;
+  
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: var(--color-blue);
+    fill: var(--color-blue);
+  }
+}
+
+.icon-social {
+  fill: var(--white-color);
+}
+
+.svg-footer {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-right: 10px;
+  fill: var(--white-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover,
+  &:focus {
+    background: var(--color-blue);
+    cursor: pointer;
+  }
+}
+
+.link-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 12px;
+
+  &:focus {
+    background: var(--color-blue);
+    cursor: pointer;
+  }
+}
+
+.icon-menu{
+  fill: var(--color-svg);
+
+  &:hover{
+    fill: var(--color-blue);
+    background-color: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+  }
+}

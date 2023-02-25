@@ -1,0 +1,42 @@
+.paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+}
+
+.list-p {
+  flex-basis: calc((100% - 50px) / 4);
+}
+
+.list-tittle {
+  font-weight: 700;
+  line-height: 1.14;
+  margin-bottom: 10px;
+}
+
+.list-paragraph {
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 16px;
+  color: var(--color-paragraph);
+}
+
+@media (min-width: 481px) and (max-width: 900px){
+  
+  .paragraph{
+    display: flex;
+    justify-content: center;
+  }
+
+  .list-p{
+    flex-basis: calc((100% - 90px) / 2);
+  }
+}
+
+@media (max-width: 480px){
+  .paragraph{
+    display: flex;
+    flex-direction: column;
+  }
+}

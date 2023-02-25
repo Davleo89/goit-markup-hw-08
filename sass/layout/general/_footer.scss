@@ -1,0 +1,141 @@
+.footer {
+  background-color: var(--background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer {
+  .container {
+    .logo {
+      margin-bottom: 14px;
+      padding: 0;
+      display: block;
+
+      &:hover {
+        font-size: 27px;
+      }
+    }
+  }
+}
+
+.address {
+  width: 231px;
+  height: 100px;
+}
+
+.footer {
+  .address {
+    .list-link {
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.footer {
+  .container {
+    .link {
+      display: block;
+      color: var(--white-color);
+      font-style: normal;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      margin-bottom: 14px;
+      padding: 0;
+
+      &:hover {
+        color: var(--color-blue);
+      }
+    }
+  }
+}
+
+.footer {
+  .container {
+    .footer-list {
+      font-style: normal;
+      padding: 0;
+    }
+  }
+}
+
+.footer {
+  .footer-list {
+    .link-contact {
+      padding: 0;
+    }
+  }
+}
+
+.social-footer {
+  margin-left: 70px;
+  margin-top: 32px;
+}
+
+.container-social-footer {
+  display: flex;
+  padding-left: 0;
+}
+
+.tittle-social {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+.icon-enviar {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 501px) and (max-width: 900px) {
+  .footer-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+    .logo {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    .address-container {
+      .logo {
+        margin-right: 0;
+      }
+      .address {
+        margin-left: 100px;
+      }
+    }
+
+    .social-footer {
+      margin-left: 0;
+      justify-content: center;
+      .container-social-footer {
+        justify-content: center;
+      }
+    }
+    .boletin{
+      margin-left: 0;
+      .form-boletin{
+        flex-direction: column;
+        row-gap: 15px;
+      }
+    }
+  }
+}

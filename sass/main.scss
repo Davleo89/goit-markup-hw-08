@@ -1,0 +1,32 @@
+// base
+    @import './base/common';
+    @import './base/container';
+
+// component
+    @import './component/backdrop';
+    @import './component/buttons';
+    @import './component/footer-form';
+    @import './component/icons';
+    @import './component/logo';
+    @import './component/modal-form';
+    @import './component/modal-windows';
+    @import './component/subtitle';
+    @import './component/menu';
+
+// layout - general
+    @import './layout/general/footer';
+    @import './layout/general/header';
+
+// layout - index
+    @import './layout/index/activity';
+    @import './layout/index/characterist';
+    @import './layout/index/clients';
+    @import './layout/index/hero';
+    @import './layout/index/our-team';
+
+// layout - portfolio
+    @import './layout/portfolio/filters.scss';
+    @import './layout/portfolio/items.scss';
+
+// utils
+    @import './utils/variables';
